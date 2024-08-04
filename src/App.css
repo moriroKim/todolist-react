@@ -1,6 +1,21 @@
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#root > div > header {
+    margin-bottom: 4rem;
 }
