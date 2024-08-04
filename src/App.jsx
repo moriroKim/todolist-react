@@ -34,13 +34,7 @@ import {
 import { GoogleAuthProvider, getAuth, signInWithPopup, onAuthStateChanged, signOut } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: 'AIzaSyBz1EI10cTk77wrGgJ0n9eFzjXssSmZ5I8',
-    authDomain: 'todolist-test-c89c5.firebaseapp.com',
-    projectId: 'todolist-test-c89c5',
-    storageBucket: 'todolist-test-c89c5.appspot.com',
-    messagingSenderId: '459657753874',
-    appId: '1:459657753874:web:2e96142dd65fec01a12fcb',
-    measurementId: 'G-S4MZTB40X0',
+    // API키
 };
 
 const app = initializeApp(firebaseConfig);
